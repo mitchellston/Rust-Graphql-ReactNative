@@ -1,0 +1,20 @@
+# project root
+/node_modules
+# react native client
+/client/node_modules
+/client/.expo
+/client/dist
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+/client/web-build/
+
+# macOS
+.DS_Store
+
+# rust server
+/server/target

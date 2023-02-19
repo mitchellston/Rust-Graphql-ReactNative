@@ -1,0 +1,19 @@
+{
+  "name": "rust-graphql-reactnative-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start:server start:client",
+    "start:server": "cd server && cargo run",
+    "start:client": "cd client && yarn start",
+    "setup": "pnpm install && cd server && cargo build && cd ../client && yarn install",
+    "clean": "cd server && cargo clean && cd ../client && rm -rf node_modules && rm -rf yarn.lock && rm -rf package-lock.json && rm -rf yarn-error.log"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
