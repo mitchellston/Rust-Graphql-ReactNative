@@ -10,3 +10,6 @@ juniper = "0.15.11"
 juniper_warp = "0.7.0"
 tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
 warp = "0.3.3"
+
+[dev-dependencies]
+cargo-watch = "8.4.0"

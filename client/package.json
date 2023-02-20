@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "main": "./index.ts",
   "scripts": {
-    "start": "yarn run codegen && expo start",
+    "start": " expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "codegen": "graphql-codegen --config codegen.ts"
+    "codegen": "graphql-codegen --config codegen.ts",
+    "codegen:watch": "yarn graphql-codegen --watch"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.24.9",

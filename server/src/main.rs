@@ -46,7 +46,7 @@ fn get_users() -> Vec<User> {
         User {
             id: 1,
             kind: UserKind::Admin,
-            name: "user1".into(),
+            name: "user".into(),
         },
         User {
             id: 2,
