@@ -4,6 +4,7 @@
 /client/node_modules
 /client/.expo
 /client/dist
+/client/src/gql
 npm-debug.*
 *.jks
 *.p8
